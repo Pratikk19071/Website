@@ -310,6 +310,8 @@ footer { background: #110f0d; color: rgba(247,244,239,0.25); padding: 1.75rem 5r
       <span class="project-btn">View Project →</span>
     </div>
 
+
+
     <div class="project-card reveal" onclick="openProject('p002')">
       <p class="project-num">002</p>
       <h3 class="project-title">Age &amp; Soccer Player Market Value</h3>
@@ -319,6 +321,8 @@ footer { background: #110f0d; color: rgba(247,244,239,0.25); padding: 1.75rem 5r
       </div>
       <span class="project-btn">View Project →</span>
     </div>
+
+
 
     <div class="project-card reveal" onclick="openProject('p003')">
       <p class="project-num">003</p>
@@ -330,6 +334,8 @@ footer { background: #110f0d; color: rgba(247,244,239,0.25); padding: 1.75rem 5r
       <span class="project-btn">View Project →</span>
     </div>
 
+
+
     <div class="project-card reveal" onclick="openProject('p004')">
       <p class="project-num">004</p>
       <h3 class="project-title">HR Dashboard — Detecting Bad Hires</h3>
@@ -339,6 +345,8 @@ footer { background: #110f0d; color: rgba(247,244,239,0.25); padding: 1.75rem 5r
       </div>
       <span class="project-btn">View Project →</span>
     </div>
+
+
 
     <div class="project-card reveal" onclick="openProject('p005')">
       <p class="project-num">005</p>
@@ -350,6 +358,8 @@ footer { background: #110f0d; color: rgba(247,244,239,0.25); padding: 1.75rem 5r
       <span class="project-btn">View Project →</span>
     </div>
 
+
+
     <div class="project-card reveal" onclick="openProject('p006')">
       <p class="project-num">006</p>
       <h3 class="project-title">EFES Brewery Capacity Optimization</h3>
@@ -360,6 +370,8 @@ footer { background: #110f0d; color: rgba(247,244,239,0.25); padding: 1.75rem 5r
       <span class="project-btn">View Project →</span>
     </div>
 
+
+
     <div class="project-card reveal" onclick="openProject('p007')">
       <p class="project-num">007</p>
       <h3 class="project-title">M-Drive — Student Rideshare Platform</h3>
@@ -369,6 +381,8 @@ footer { background: #110f0d; color: rgba(247,244,239,0.25); padding: 1.75rem 5r
       </div>
       <span class="project-btn">View Project →</span>
     </div>
+
+
 
     <div class="project-card reveal" onclick="openProject('p008')">
       <p class="project-num">008</p>
@@ -381,6 +395,8 @@ footer { background: #110f0d; color: rgba(247,244,239,0.25); padding: 1.75rem 5r
     </div>
 
 
+
+
     <div class="project-card reveal" onclick="openProject('p009')">
       <p class="project-num">009</p>
       <h3 class="project-title">Detroit Police Crime Response Analysis</h3>
@@ -390,6 +406,19 @@ footer { background: #110f0d; color: rgba(247,244,239,0.25); padding: 1.75rem 5r
       </div>
       <span class="project-btn">View Project →</span>
     </div>
+
+
+
+    <div class="project-card reveal" onclick="openProject('p010')">
+      <p class="project-num">010</p>
+      <h3 class="project-title">CitiBike Demand Analysis</h3>
+      <p class="project-desc">Power BI analysis of CitiBike ridership patterns across NYC, identifying peak-demand corridors, underutilized stations, and commuter vs. leisure usage trends to inform bike redistribution strategy.</p>
+      <div class="project-tags">
+        <span class="project-tag">Power BI</span><span class="project-tag">DAX</span><span class="project-tag">Urban Mobility</span><span class="project-tag">Demand Analysis</span>
+      </div>
+      <span class="project-btn">View Project →</span>
+    </div>
+
 
     <div class="project-card reveal" onclick="openProject('p011')">
       <p class="project-num">011</p>
@@ -401,15 +430,20 @@ footer { background: #110f0d; color: rgba(247,244,239,0.25); padding: 1.75rem 5r
       <span class="project-btn">View Project →</span>
     </div>
 
-    <div class="project-card reveal" onclick="openProject('p010')">
-      <p class="project-num">010</p>
-      <h3 class="project-title">CitiBike Demand Analysis</h3>
-      <p class="project-desc">Power BI analysis of CitiBike ridership patterns across NYC, identifying peak-demand corridors, underutilized stations, and commuter vs. leisure usage trends to inform bike redistribution strategy.</p>
+
+
+    <div class="project-card reveal" onclick="openProject('p012')">
+      <p class="project-num">012</p>
+      <h3 class="project-title">Winning Without the Ball: A Comprehensive Analysis on PSG's Champions League Runs</h3>
+      <p class="project-desc">Two-season R analysis of PSG's tactical evolution in the Champions League, using k-means clustering, finishing efficiency models, and possession analysis to uncover how they won Europe without Mbappe.</p>
       <div class="project-tags">
-        <span class="project-tag">Power BI</span><span class="project-tag">DAX</span><span class="project-tag">Urban Mobility</span><span class="project-tag">Demand Analysis</span>
+        <span class="project-tag">R / ggplot2</span><span class="project-tag">K-Means Clustering</span><span class="project-tag">Sports Analytics</span><span class="project-tag">Data Visualization</span>
       </div>
       <span class="project-btn">View Project →</span>
     </div>
+
+
+
 
   </div>
 </section>
@@ -709,6 +743,32 @@ reveals.forEach(el => observer.observe(el));
     </div>
     <div class="proj-detail-footer">
       <a href="011.pbix" target="_blank" class="btn btn-primary">Open in Power BI (.pbix) →</a>
+    </div>
+  </div>
+</div>
+
+<div class="proj-overlay" id="p012">
+  <div class="proj-overlay-inner">
+    <button class="proj-back" onclick="closeProject()">← Back to Projects</button>
+    <p class="proj-detail-num">012</p>
+    <h1 class="proj-detail-title">Winning Without the Ball: A Comprehensive Analysis on PSG's Champions League Runs</h1>
+    <div class="proj-detail-tags">
+      <span class="proj-detail-tag">R / tidyverse</span>
+      <span class="proj-detail-tag">ggplot2</span>
+      <span class="proj-detail-tag">K-Means Clustering</span>
+      <span class="proj-detail-tag">Sports Analytics</span>
+      <span class="proj-detail-tag">Data Visualization</span>
+      <span class="proj-detail-tag">Radar Profiles</span>
+    </div>
+    <div class="proj-detail-body">
+      <p>PSG won the Champions League in 2024–25 — the first in the club's history — the season after losing Kylian Mbappe. That contradiction is the starting point for this project: a team built around marquee individuals suddenly winning Europe as a collective, then doubling down on that identity into 2025–26.</p>
+      <p>Working entirely in R, match-level and player-level datasets were assembled across both campaigns and analyzed using descriptive statistics, finishing-efficiency comparisons, possession modeling, and k-means clustering. Per-90 metrics were computed throughout to allow fair player comparisons across different playing times.</p>
+      <p>Three core findings emerged. First, the attacking load shifted decisively from Dembélé (14 G+A in 2024–25) to Kvaratskhelia (16 G+A in 2025–26), and the attack as a whole became more collectively distributed. Second, PSG averaged 67.9% possession in the league phase but just 58% in knockout ties — and maintained a positive goal difference across the entire possession range, including a 35% possession game away at Bayern. Third, and most striking, k-means clustering on player profiles isolated Ousmane Dembélé into a cluster of one: the only player in the squad with high attacking output and near-zero defensive actions — the designated pressing exemption the system is built around.</p>
+      <p>The project includes radar profile visualizations for key players, a cumulative goal contribution concentration curve comparing both seasons, and match-level tactical clustering across the 2025–26 campaign.</p>
+    </div>
+    <div class="proj-detail-footer">
+      <a href="012.html" target="_blank" download class="btn btn-primary">Download R Analysis (.html) →</a>
+      <a href="012.docx" target="_blank" download class="btn btn-outline">Download Full Report (.docx) →</a>
     </div>
   </div>
 </div>
